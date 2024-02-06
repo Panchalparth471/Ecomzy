@@ -16,7 +16,7 @@ const Navbar = () => {
     
           <FaShoppingCart className="text-2xl"></FaShoppingCart>
            {
-            cart.length>0 && <span className="absolute top-[20px] right-[18.6%] bg-green-600 text-xs w-5 h-5 flex justify-center items-center animate-bounce rounded-full">{cart.length}</span>
+            cart.length>0 && <span className="absolute top-[20px] right-[18.6%] max-sm:right-2 bg-green-600 text-xs w-5 h-5 flex justify-center items-center animate-bounce rounded-full">{cart.length}</span>
 
           }
         </NavLink>
